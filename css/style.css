@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald:wght@500&family=Vollkorn&display=swap');
+
+body {
+    background-color: mistyrose;
+}
+
+.heading{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: darkslategrey;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+}
+
+#tableheading1 {
+    text-align: left;
+}
+
+#tableheading2 {
+    text-align: left;
+}
+
+.ingredients {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: firebrick;
+}
+
+.ingredients-table {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.instructions {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    color: indigo;
+    padding-top: 30px;
+}
+
+.instructions ol {
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    
+    
+}
+
+#allikas {
+    padding-left: 47%;
+    padding-bottom: 20px;
+    
+}
+
+#footer {
+    text-align: center;
+    padding-top: 20px;
+    color: navy;
+
+}
