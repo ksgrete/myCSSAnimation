@@ -2,6 +2,7 @@
 
 body {
     background-color: mistyrose;
+    overflow: hidden;
 }
 
 .heading{
@@ -12,6 +13,15 @@ body {
     color: darkslategrey;
     font-family: 'Indie Flower', cursive;
     font-size: 3rem;
+    position: relative;
+    animation: pealkiri;
+    animation-duration: 4s;
+
+}
+
+@keyframes pealkiri {
+    0% {top: -250px}
+    100% {top: 0}
 }
 
 #tableheading1 {
@@ -43,6 +53,13 @@ body {
     margin: 0 auto;
     color: indigo;
     padding-top: 30px;
+    animation: juhend;
+    animation-duration: 4s;
+}
+
+@keyframes juhend {
+    0% {opacity: 0;} /*0-1*/
+    100% {opacity: 1;}
 }
 
 .instructions ol {
@@ -56,8 +73,15 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
+    animation: pilt;
+    animation-duration: 4s;
     
     
+}
+
+@keyframes pilt {
+    0% {opacity: 0;} /*0-1*/
+    100% {opacity: 1;}
 }
 
 #allikas {
@@ -70,5 +94,13 @@ img {
     text-align: center;
     padding-top: 20px;
     color: navy;
-
+    position: relative;
+    animation: jalus;
+    animation-duration: 3s;
 }
+
+@keyframes jalus {
+    0% {bottom: -2000px}
+    100% {bottom: 0}
+}
+
